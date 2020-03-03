@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.algonquin.devi0087" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>tundra</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+       
+         <splash src="res/screen/android/board1.png" density="port-hdpi"/>
+          <icon src="res/icon/android/board1hdpi.png" density="hdpi" />
+         <preference name="AutoHideSplashScreen" value="true" />
+         <preference name="SplashScreenDelay" value="5000" />
+         <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+   
+    <splash src="res/screen/ios/artboard11-2.png" width="750" height="1334"/>
+     
+     <icon src="res/icon/ios/artboard1hdpi.png" width="180" height="180"/>
+       <preference name="AutoHideSplashScreen" value="true" />
+         <preference name="SplashScreenDelay" value="5000" />
+         
+  
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
