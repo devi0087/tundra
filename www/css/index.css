@@ -1,0 +1,49 @@
+#footer{
+    display: flex;
+  flex-direction: row;
+    justify-content: space-between;
+   
+    cursor: pointer;
+    bottom:0;
+    width:100vw;
+   
+}
+.home{
+  border: 5px solid rebeccapurple;
+  font-size: 20px;
+  padding: 1rem;
+  width: 60vw;
+  margin: 1rem;
+  transition: all 0.4s linear 0s;
+  transform: translate(0);
+
+}
+.home.left{
+  transform: translate(-300%);
+}
+.home.right{
+  transform: translate(300%);
+}
+.active{
+  display:block;
+}
+.inactive{
+  display: none;
+}
+#Avatar{
+  background-color:fuchsia;
+  border: black;
+  
+}
+h1{
+  padding-left: 4rem;;
+}
+html{
+  background-color: rgb(39, 168, 168);
+  
+}
+button{
+  display: flex;
+  cursor: pointer;
+}
+

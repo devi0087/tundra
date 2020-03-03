@@ -1,0 +1,32 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.algonquin.devi0087"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.algonquin.devi0087"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "com.algonquin.devi0087"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.algonquin.devi0087"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.algonquin.devi0087"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.algonquin.devi0087"
+    }
+  }
+}
